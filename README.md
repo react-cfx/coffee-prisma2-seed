@@ -16,7 +16,7 @@ make docker
 cd coffee-prisma2-seed
 yarn generate
 yarn liftstart
-yarn up
+yarn liftup
 yarn seed
 yarn rebuild
 yarn start
