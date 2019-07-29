@@ -13,7 +13,7 @@ make docker
 
 ```bash
 make docker
-cd coffee-prisma2-seed
+cd prisma2_sqlite
 yarn generate
 yarn liftstart
 yarn liftup

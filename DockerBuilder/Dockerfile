@@ -10,7 +10,7 @@ RUN apt-fast update && \
 
 RUN apt-fast install -y sqlite
 
-RUN fish -lc "yarn global add prisma2"
+RUN fish -lc "yarn global add prisma2@2.0.0-alpha.62"
 
 RUN \
     apt-fast autoremove -y && \

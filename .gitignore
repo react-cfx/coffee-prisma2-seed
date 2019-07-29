@@ -18,6 +18,8 @@ tmp
 
 prisma/migrations
 prisma/*.db
+failed-migrationProgress-*
+failed-applyMigration-*
 
 package-lock.json
 
